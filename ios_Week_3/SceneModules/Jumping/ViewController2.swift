@@ -1,31 +1,32 @@
 //
-//  TestViewController.swift
+//  ViewController2.swift
 //  ios_Week_3
 //
-//  Created by DarkBringer on 2.10.2021.
+//  Created by DarkBringer on 3.10.2021.
 //
 
 import UIKit
 
 fileprivate extension Selector {
-    static let testButtonTapped2 = #selector(TestViewController.testButtonAction2)
+    static let pushButtonTapped = #selector(ViewController2.pushButtonAction)
 }
 
-class TestViewController: UIViewController {
+class ViewController2: UIViewController {
     
     private lazy var test: UIButton = {
         let temp = UIButton(type: .system)
         temp.translatesAutoresizingMaskIntoConstraints = false
-        temp.addTarget(self, action: .testButtonTapped2, for: .touchUpInside)
-        temp.setTitle("PUSH", for: .normal)
-        //temp.setTitleColor(.black, for: .normal)
+        temp.addTarget(self, action: .pushButtonTapped, for: .touchUpInside)
+        temp.setTitle("Push viewController3", for: .normal)
         return temp
     }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .yellow
+        view.backgroundColor = .cyan
+        
+        title = "ViewController2"
         
         view.addSubview(test)
         
@@ -37,9 +38,10 @@ class TestViewController: UIViewController {
         ])
     }
     
-    @objc fileprivate func testButtonAction2(_ sender: UIButton) {
-        let viewController = UIViewController()
-        viewController.view.backgroundColor = .cyan
+    @objc fileprivate func pushButtonAction(_ sender: UIButton) {
+        let viewController = ViewController3()
         self.navigationController?.pushViewController(viewController, animated: true)
     }
+
+
 }

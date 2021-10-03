@@ -8,6 +8,7 @@
 import UIKit
 
 class CustomImageViewComponentData {
+    
     private(set) var imageUrl: String
     private(set) var contentMode: UIView.ContentMode = .scaleAspectFill
     private(set) var loadingType: CustomImageLoadingType = .memory

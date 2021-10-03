@@ -47,6 +47,23 @@
 		D856F4A72708BFBD0013A1A6 /* LabelPackComponentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D856F4A62708BFBD0013A1A6 /* LabelPackComponentData.swift */; };
 		D856F4AB2708C00A0013A1A6 /* ImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D856F4AA2708C00A0013A1A6 /* ImageCacheManager.swift */; };
 		D856F4AE2708C0360013A1A6 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D856F4AD2708C0360013A1A6 /* FontManager.swift */; };
+		D87887422709F1AF00F0574C /* PageViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87887412709F1AF00F0574C /* PageViewComponent.swift */; };
+		D87887442709F1D200F0574C /* PageViewComponentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87887432709F1D200F0574C /* PageViewComponentData.swift */; };
+		D87887472709F3E200F0574C /* GenericImageContainerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87887462709F3E200F0574C /* GenericImageContainerData.swift */; };
+		D87887492709F41000F0574C /* PageViewDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87887482709F41000F0574C /* PageViewDataProtocol.swift */; };
+		D878874B2709FABC00F0574C /* GenericImageContainerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D878874A2709FABC00F0574C /* GenericImageContainerViewModel.swift */; };
+		D878874D2709FBAB00F0574C /* GenericImageContainerViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D878874C2709FBAB00F0574C /* GenericImageContainerViewBuilder.swift */; };
+		D878874F2709FC1100F0574C /* GenericImageContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D878874E2709FC1100F0574C /* GenericImageContainer.swift */; };
+		D87887522709FD2A00F0574C /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87887512709FD2A00F0574C /* ViewController1.swift */; };
+		D87887542709FE7000F0574C /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87887532709FE7000F0574C /* ViewController2.swift */; };
+		D87887562709FE9200F0574C /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87887552709FE9200F0574C /* ViewController3.swift */; };
+		D87887582709FEA600F0574C /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87887572709FEA600F0574C /* ViewController4.swift */; };
+		D878875A2709FEC400F0574C /* ViewContoller5.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87887592709FEC400F0574C /* ViewContoller5.swift */; };
+		D878875D2709FF1200F0574C /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D878875C2709FF1200F0574C /* TutorialViewController.swift */; };
+		D878875F2709FF3400F0574C /* TutorialViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D878875E2709FF3400F0574C /* TutorialViewModel.swift */; };
+		D8788761270A022000F0574C /* TutorialViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8788760270A022000F0574C /* TutorialViewBuilder.swift */; };
+		D8788764270A025600F0574C /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8788763270A025600F0574C /* UIApplication+Extension.swift */; };
+		D8788766270A027A00F0574C /* PageViewImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8788765270A027A00F0574C /* PageViewImages.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +130,23 @@
 		D856F4A62708BFBD0013A1A6 /* LabelPackComponentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelPackComponentData.swift; sourceTree = "<group>"; };
 		D856F4AA2708C00A0013A1A6 /* ImageCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheManager.swift; sourceTree = "<group>"; };
 		D856F4AD2708C0360013A1A6 /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		D87887412709F1AF00F0574C /* PageViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewComponent.swift; sourceTree = "<group>"; };
+		D87887432709F1D200F0574C /* PageViewComponentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewComponentData.swift; sourceTree = "<group>"; };
+		D87887462709F3E200F0574C /* GenericImageContainerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericImageContainerData.swift; sourceTree = "<group>"; };
+		D87887482709F41000F0574C /* PageViewDataProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewDataProtocol.swift; sourceTree = "<group>"; };
+		D878874A2709FABC00F0574C /* GenericImageContainerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericImageContainerViewModel.swift; sourceTree = "<group>"; };
+		D878874C2709FBAB00F0574C /* GenericImageContainerViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericImageContainerViewBuilder.swift; sourceTree = "<group>"; };
+		D878874E2709FC1100F0574C /* GenericImageContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericImageContainer.swift; sourceTree = "<group>"; };
+		D87887512709FD2A00F0574C /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		D87887532709FE7000F0574C /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		D87887552709FE9200F0574C /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		D87887572709FEA600F0574C /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		D87887592709FEC400F0574C /* ViewContoller5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewContoller5.swift; sourceTree = "<group>"; };
+		D878875C2709FF1200F0574C /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		D878875E2709FF3400F0574C /* TutorialViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewModel.swift; sourceTree = "<group>"; };
+		D8788760270A022000F0574C /* TutorialViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewBuilder.swift; sourceTree = "<group>"; };
+		D8788763270A025600F0574C /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		D8788765270A027A00F0574C /* PageViewImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewImages.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,10 +235,13 @@
 		D856F445270842FA0013A1A6 /* SceneModules */ = {
 			isa = PBXGroup;
 			children = (
+				D878875B2709FEF600F0574C /* Tutorial */,
+				D87887502709FD1C00F0574C /* Jumping */,
+				D856F4462708431A0013A1A6 /* Main */,
+				D856F45F2708519C0013A1A6 /* MainTabBar */,
+				D87887452709F3C500F0574C /* GenericImageContainer */,
 				D856F48127086D4A0013A1A6 /* CharacterList */,
 				D856F469270859700013A1A6 /* Favorites */,
-				D856F45F2708519C0013A1A6 /* MainTabBar */,
-				D856F4462708431A0013A1A6 /* Main */,
 			);
 			path = SceneModules;
 			sourceTree = "<group>";
@@ -252,6 +289,7 @@
 		D856F465270858B40013A1A6 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				D8788762270A024700F0574C /* Extensions */,
 				D856F4AC2708C02B0013A1A6 /* FontManager */,
 				D856F466270858BA0013A1A6 /* AssetHelpers */,
 			);
@@ -262,6 +300,7 @@
 			isa = PBXGroup;
 			children = (
 				D856F47A2708671C0013A1A6 /* TabBarImages.swift */,
+				D8788765270A027A00F0574C /* PageViewImages.swift */,
 			);
 			path = AssetHelpers;
 			sourceTree = "<group>";
@@ -289,8 +328,9 @@
 		D856F48827086F490013A1A6 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				D856F4A32708BFA20013A1A6 /* LabelPackComponent */,
+				D87887402709F18D00F0574C /* PageViewComponent */,
 				D856F49A2708AA8B0013A1A6 /* CustomImageViewComponent */,
+				D856F4A32708BFA20013A1A6 /* LabelPackComponent */,
 				D856F4952708A9230013A1A6 /* ItemComponents */,
 				D856F48C270870A00013A1A6 /* SampleTest */,
 				D856F48927086F4F0013A1A6 /* ItemListViewComponents */,
@@ -366,6 +406,57 @@
 				D856F4AD2708C0360013A1A6 /* FontManager.swift */,
 			);
 			path = FontManager;
+			sourceTree = "<group>";
+		};
+		D87887402709F18D00F0574C /* PageViewComponent */ = {
+			isa = PBXGroup;
+			children = (
+				D87887412709F1AF00F0574C /* PageViewComponent.swift */,
+				D87887432709F1D200F0574C /* PageViewComponentData.swift */,
+			);
+			path = PageViewComponent;
+			sourceTree = "<group>";
+		};
+		D87887452709F3C500F0574C /* GenericImageContainer */ = {
+			isa = PBXGroup;
+			children = (
+				D87887462709F3E200F0574C /* GenericImageContainerData.swift */,
+				D878874A2709FABC00F0574C /* GenericImageContainerViewModel.swift */,
+				D878874C2709FBAB00F0574C /* GenericImageContainerViewBuilder.swift */,
+				D87887482709F41000F0574C /* PageViewDataProtocol.swift */,
+				D878874E2709FC1100F0574C /* GenericImageContainer.swift */,
+			);
+			path = GenericImageContainer;
+			sourceTree = "<group>";
+		};
+		D87887502709FD1C00F0574C /* Jumping */ = {
+			isa = PBXGroup;
+			children = (
+				D87887512709FD2A00F0574C /* ViewController1.swift */,
+				D87887532709FE7000F0574C /* ViewController2.swift */,
+				D87887552709FE9200F0574C /* ViewController3.swift */,
+				D87887572709FEA600F0574C /* ViewController4.swift */,
+				D87887592709FEC400F0574C /* ViewContoller5.swift */,
+			);
+			path = Jumping;
+			sourceTree = "<group>";
+		};
+		D878875B2709FEF600F0574C /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				D878875C2709FF1200F0574C /* TutorialViewController.swift */,
+				D878875E2709FF3400F0574C /* TutorialViewModel.swift */,
+				D8788760270A022000F0574C /* TutorialViewBuilder.swift */,
+			);
+			path = Tutorial;
+			sourceTree = "<group>";
+		};
+		D8788762270A024700F0574C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D8788763270A025600F0574C /* UIApplication+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -498,34 +589,51 @@
 			buildActionMask = 2147483647;
 			files = (
 				D856F46F270866B00013A1A6 /* FavoriteViewBuilder.swift in Sources */,
+				D87887422709F1AF00F0574C /* PageViewComponent.swift in Sources */,
+				D8788761270A022000F0574C /* TutorialViewBuilder.swift in Sources */,
 				D856F49E2708AAE50013A1A6 /* CustomImageViewComponent.swift in Sources */,
 				D856F4972708A9360013A1A6 /* ItemTableViewCell.swift in Sources */,
 				D856F463270852410013A1A6 /* MainTabBarBuilder.swift in Sources */,
 				D856F48727086D840013A1A6 /* CharacterListViewModel.swift in Sources */,
 				D856F48327086D6B0013A1A6 /* CharacterListViewController.swift in Sources */,
 				D856F48E270870A80013A1A6 /* SampleTest.swift in Sources */,
+				D878875D2709FF1200F0574C /* TutorialViewController.swift in Sources */,
 				D856F448270843200013A1A6 /* MainViewModel.swift in Sources */,
+				D87887492709F41000F0574C /* PageViewDataProtocol.swift in Sources */,
 				D856F41727083E300013A1A6 /* ViewController.swift in Sources */,
 				D856F41327083E300013A1A6 /* AppDelegate.swift in Sources */,
 				D856F48B27086F5D0013A1A6 /* ItemListView.swift in Sources */,
 				D856F4992708A9430013A1A6 /* ItemTableViewCellData.swift in Sources */,
+				D87887442709F1D200F0574C /* PageViewComponentData.swift in Sources */,
 				D856F4A02708AB5A0013A1A6 /* CustomImageViewComponentData.swift in Sources */,
 				D856F45B270845CA0013A1A6 /* GenericBaseView.swift in Sources */,
 				D856F47B2708671C0013A1A6 /* TabBarImages.swift in Sources */,
+				D878874D2709FBAB00F0574C /* GenericImageContainerViewBuilder.swift in Sources */,
 				D856F44C2708434F0013A1A6 /* MainViewController.swift in Sources */,
+				D87887542709FE7000F0574C /* ViewController2.swift in Sources */,
+				D8788766270A027A00F0574C /* PageViewImages.swift in Sources */,
 				D856F4942708A8AF0013A1A6 /* ItemListProtocol.swift in Sources */,
 				D856F4A22708BF2E0013A1A6 /* CustomImageViewComponentContainer.swift in Sources */,
 				D856F46B270859A00013A1A6 /* FavoriteViewController.swift in Sources */,
 				D856F4A72708BFBD0013A1A6 /* LabelPackComponentData.swift in Sources */,
+				D87887522709FD2A00F0574C /* ViewController1.swift in Sources */,
 				D856F45C270845CA0013A1A6 /* GenericValueProtocol.swift in Sources */,
+				D87887582709FEA600F0574C /* ViewController4.swift in Sources */,
 				D856F44E2708435D0013A1A6 /* MainViewBuilder.swift in Sources */,
+				D87887562709FE9200F0574C /* ViewController3.swift in Sources */,
 				D856F4AE2708C0360013A1A6 /* FontManager.swift in Sources */,
 				D856F4AB2708C00A0013A1A6 /* ImageCacheManager.swift in Sources */,
+				D878874F2709FC1100F0574C /* GenericImageContainer.swift in Sources */,
+				D878875A2709FEC400F0574C /* ViewContoller5.swift in Sources */,
 				D856F461270851AF0013A1A6 /* MainTabBarController.swift in Sources */,
+				D878875F2709FF3400F0574C /* TutorialViewModel.swift in Sources */,
+				D8788764270A025600F0574C /* UIApplication+Extension.swift in Sources */,
 				D856F4922708A7E70013A1A6 /* GenericDataProtocol.swift in Sources */,
 				D856F4902708A6850013A1A6 /* BaseTableViewCell.swift in Sources */,
+				D87887472709F3E200F0574C /* GenericImageContainerData.swift in Sources */,
 				D856F45A270845CA0013A1A6 /* BaseViewController.swift in Sources */,
 				D856F49C2708AAAB0013A1A6 /* CustomImageLoadingType.swift in Sources */,
+				D878874B2709FABC00F0574C /* GenericImageContainerViewModel.swift in Sources */,
 				D856F41527083E300013A1A6 /* SceneDelegate.swift in Sources */,
 				D856F4A52708BFB00013A1A6 /* LabelPackComponent.swift in Sources */,
 				D856F41D27083E300013A1A6 /* ios_Week_3.xcdatamodeld in Sources */,

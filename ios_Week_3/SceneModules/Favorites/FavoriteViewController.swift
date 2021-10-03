@@ -9,12 +9,9 @@ import UIKit
 
 class FavoriteViewController: BaseViewController<FavoriteViewModel> {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-        view.backgroundColor = .red
-        
+    override func prepareViewControllerConfigurations() {
+        super.prepareViewControllerConfigurations()
+        view.backgroundColor = .yellow
     }
 
 }
