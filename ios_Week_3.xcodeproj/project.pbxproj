@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -64,6 +64,11 @@
 		D8788761270A022000F0574C /* TutorialViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8788760270A022000F0574C /* TutorialViewBuilder.swift */; };
 		D8788764270A025600F0574C /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8788763270A025600F0574C /* UIApplication+Extension.swift */; };
 		D8788766270A027A00F0574C /* PageViewImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8788765270A027A00F0574C /* PageViewImages.swift */; };
+		D87887B6270CC98B00F0574C /* MarvelCharactersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87887B5270CC98B00F0574C /* MarvelCharactersResponse.swift */; };
+		D87887B9270D9D5800F0574C /* MarvelDataLayer in Frameworks */ = {isa = PBXBuildFile; productRef = D87887B8270D9D5800F0574C /* MarvelDataLayer */; };
+		D87887BB27104A0400F0574C /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87887BA27104A0400F0574C /* BaseRequest.swift */; };
+		D87887BD27104A4300F0574C /* MarvelCharactesApiServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87887BC27104A4300F0574C /* MarvelCharactesApiServiceProvider.swift */; };
+		D87BB54E271059890072EFD9 /* DefaultNetworkOperationPackage in Frameworks */ = {isa = PBXBuildFile; productRef = D87BB54D271059890072EFD9 /* DefaultNetworkOperationPackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -147,6 +152,9 @@
 		D8788760270A022000F0574C /* TutorialViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewBuilder.swift; sourceTree = "<group>"; };
 		D8788763270A025600F0574C /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
 		D8788765270A027A00F0574C /* PageViewImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewImages.swift; sourceTree = "<group>"; };
+		D87887B5270CC98B00F0574C /* MarvelCharactersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelCharactersResponse.swift; sourceTree = "<group>"; };
+		D87887BA27104A0400F0574C /* BaseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
+		D87887BC27104A4300F0574C /* MarvelCharactesApiServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelCharactesApiServiceProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +162,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D87BB54E271059890072EFD9 /* DefaultNetworkOperationPackage in Frameworks */,
+				D87887B9270D9D5800F0574C /* MarvelDataLayer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +207,7 @@
 		D856F41127083E300013A1A6 /* ios_Week_3 */ = {
 			isa = PBXGroup;
 			children = (
+				D87887B3270CC97500F0574C /* Models */,
 				D856F4A82708BFEE0013A1A6 /* Managers */,
 				D856F48827086F490013A1A6 /* Components */,
 				D856F465270858B40013A1A6 /* Utils */,
@@ -328,12 +339,12 @@
 		D856F48827086F490013A1A6 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				D87887402709F18D00F0574C /* PageViewComponent */,
 				D856F49A2708AA8B0013A1A6 /* CustomImageViewComponent */,
-				D856F4A32708BFA20013A1A6 /* LabelPackComponent */,
 				D856F4952708A9230013A1A6 /* ItemComponents */,
-				D856F48C270870A00013A1A6 /* SampleTest */,
 				D856F48927086F4F0013A1A6 /* ItemListViewComponents */,
+				D856F4A32708BFA20013A1A6 /* LabelPackComponent */,
+				D87887402709F18D00F0574C /* PageViewComponent */,
+				D856F48C270870A00013A1A6 /* SampleTest */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -459,6 +470,24 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		D87887B3270CC97500F0574C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D87887B4270CC97800F0574C /* MarvelSample */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D87887B4270CC97800F0574C /* MarvelSample */ = {
+			isa = PBXGroup;
+			children = (
+				D87887BC27104A4300F0574C /* MarvelCharactesApiServiceProvider.swift */,
+				D87887B5270CC98B00F0574C /* MarvelCharactersResponse.swift */,
+				D87887BA27104A0400F0574C /* BaseRequest.swift */,
+			);
+			path = MarvelSample;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -475,6 +504,10 @@
 			dependencies = (
 			);
 			name = ios_Week_3;
+			packageProductDependencies = (
+				D87887B8270D9D5800F0574C /* MarvelDataLayer */,
+				D87BB54D271059890072EFD9 /* DefaultNetworkOperationPackage */,
+			);
 			productName = ios_Week_3;
 			productReference = D856F40F27083E300013A1A6 /* ios_Week_3.app */;
 			productType = "com.apple.product-type.application";
@@ -546,6 +579,10 @@
 				Base,
 			);
 			mainGroup = D856F40627083E300013A1A6;
+			packageReferences = (
+				D87887B7270D9D5800F0574C /* XCRemoteSwiftPackageReference "MarvelDataLayer" */,
+				D87BB54C271059890072EFD9 /* XCRemoteSwiftPackageReference "DefaultNetworkOperationPackage" */,
+			);
 			productRefGroup = D856F41027083E300013A1A6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -607,6 +644,7 @@
 				D87887442709F1D200F0574C /* PageViewComponentData.swift in Sources */,
 				D856F4A02708AB5A0013A1A6 /* CustomImageViewComponentData.swift in Sources */,
 				D856F45B270845CA0013A1A6 /* GenericBaseView.swift in Sources */,
+				D87887B6270CC98B00F0574C /* MarvelCharactersResponse.swift in Sources */,
 				D856F47B2708671C0013A1A6 /* TabBarImages.swift in Sources */,
 				D878874D2709FBAB00F0574C /* GenericImageContainerViewBuilder.swift in Sources */,
 				D856F44C2708434F0013A1A6 /* MainViewController.swift in Sources */,
@@ -624,6 +662,7 @@
 				D856F4AE2708C0360013A1A6 /* FontManager.swift in Sources */,
 				D856F4AB2708C00A0013A1A6 /* ImageCacheManager.swift in Sources */,
 				D878874F2709FC1100F0574C /* GenericImageContainer.swift in Sources */,
+				D87887BD27104A4300F0574C /* MarvelCharactesApiServiceProvider.swift in Sources */,
 				D878875A2709FEC400F0574C /* ViewContoller5.swift in Sources */,
 				D856F461270851AF0013A1A6 /* MainTabBarController.swift in Sources */,
 				D878875F2709FF3400F0574C /* TutorialViewModel.swift in Sources */,
@@ -637,6 +676,7 @@
 				D856F41527083E300013A1A6 /* SceneDelegate.swift in Sources */,
 				D856F4A52708BFB00013A1A6 /* LabelPackComponent.swift in Sources */,
 				D856F41D27083E300013A1A6 /* ios_Week_3.xcdatamodeld in Sources */,
+				D87887BB27104A0400F0574C /* BaseRequest.swift in Sources */,
 				D856F48527086D760013A1A6 /* CharacterListViewBuilder.swift in Sources */,
 				D856F46E270866B00013A1A6 /* FavoriteViewModel.swift in Sources */,
 				D856F45E27084C040013A1A6 /* TestViewController.swift in Sources */,
@@ -965,6 +1005,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D87887B7270D9D5800F0574C /* XCRemoteSwiftPackageReference "MarvelDataLayer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/erkutbas/MarvelDataLayer.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.8;
+			};
+		};
+		D87BB54C271059890072EFD9 /* XCRemoteSwiftPackageReference "DefaultNetworkOperationPackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/darkbringer1/DefaultNetworkOperationPackage.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D87887B8270D9D5800F0574C /* MarvelDataLayer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D87887B7270D9D5800F0574C /* XCRemoteSwiftPackageReference "MarvelDataLayer" */;
+			productName = MarvelDataLayer;
+		};
+		D87BB54D271059890072EFD9 /* DefaultNetworkOperationPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D87BB54C271059890072EFD9 /* XCRemoteSwiftPackageReference "DefaultNetworkOperationPackage" */;
+			productName = DefaultNetworkOperationPackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		D856F41B27083E300013A1A6 /* ios_Week_3.xcdatamodeld */ = {

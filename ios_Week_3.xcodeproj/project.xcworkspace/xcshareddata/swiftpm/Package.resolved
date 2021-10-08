@@ -1,0 +1,70 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
+        "state": {
+          "branch": null,
+          "revision": "d120af1e8638c7da36c8481fd61a66c0c08dc4fc",
+          "version": "5.4.4"
+        }
+      },
+      {
+        "package": "DefaultNetworkOperationPackage",
+        "repositoryURL": "https://github.com/darkbringer1/DefaultNetworkOperationPackage.git",
+        "state": {
+          "branch": "main",
+          "revision": "1c55cc35ddb36f4f16437ec48039b518e6464c2b",
+          "version": null
+        }
+      },
+      {
+        "package": "MarvelDataLayer",
+        "repositoryURL": "https://github.com/erkutbas/MarvelDataLayer.git",
+        "state": {
+          "branch": null,
+          "revision": "9790487b1ce3392f806de04444590a08798a7ab5",
+          "version": "1.0.8"
+        }
+      },
+      {
+        "package": "MarvelDomainLayer",
+        "repositoryURL": "https://github.com/erkutbas/MarvelDomainLayer.git",
+        "state": {
+          "branch": null,
+          "revision": "19ad81f0edddb5151accff8a4bc2b9ebdad12e6f",
+          "version": "1.1.2"
+        }
+      },
+      {
+        "package": "NetworkEntityLayer",
+        "repositoryURL": "https://github.com/erkutbas/NetworkEntityLayer.git",
+        "state": {
+          "branch": null,
+          "revision": "2f3993999cf3a438b36416c4a7ad2fbe4b0ae4ea",
+          "version": "1.0.1"
+        }
+      },
+      {
+        "package": "NetworkLayer",
+        "repositoryURL": "https://github.com/erkutbas/NetworkLayer.git",
+        "state": {
+          "branch": null,
+          "revision": "8f6e8cb70fc60656e2ff5c9196b935d9211997c2",
+          "version": "1.0.6"
+        }
+      },
+      {
+        "package": "RxSwift",
+        "repositoryURL": "https://github.com/ReactiveX/RxSwift.git",
+        "state": {
+          "branch": null,
+          "revision": "7c17a6ccca06b5c107cfa4284e634562ddaf5951",
+          "version": "6.2.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

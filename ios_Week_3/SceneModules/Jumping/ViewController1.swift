@@ -29,12 +29,12 @@ class ViewController1: UIViewController {
         
         view.backgroundColor = .gray
         
-        title = "ViewController1"
+        title = "Jumper"
         
         view.addSubview(test)
         
         NSLayoutConstraint.activate([
-        
+            
             test.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             test.centerYAnchor.constraint(equalTo: view.centerYAnchor)
             
