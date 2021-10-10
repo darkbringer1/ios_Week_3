@@ -43,9 +43,10 @@ class ItemListView: BaseView {
     }
     
     func reloadTableView() {
-        tableView.reloadData()
+        DispatchQueue.main.async {
+            self.tableView.reloadData()
+        }
     }
-    
 }
 
 extension ItemListView: UITableViewDelegate, UITableViewDataSource {
@@ -68,7 +69,5 @@ extension ItemListView: UITableViewDelegate, UITableViewDataSource {
         
         return cell
     }
-    
-    
 }
 

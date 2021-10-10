@@ -66,8 +66,16 @@
 		D8788766270A027A00F0574C /* PageViewImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8788765270A027A00F0574C /* PageViewImages.swift */; };
 		D87887B6270CC98B00F0574C /* MarvelCharactersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87887B5270CC98B00F0574C /* MarvelCharactersResponse.swift */; };
 		D87887BB27104A0400F0574C /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87887BA27104A0400F0574C /* BaseRequest.swift */; };
-		D87887BD27104A4300F0574C /* MarvelCharactesApiServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87887BC27104A4300F0574C /* MarvelCharactesApiServiceProvider.swift */; };
-		D87BB55127105F010072EFD9 /* DefaultNetworkOperationPackage in Frameworks */ = {isa = PBXBuildFile; productRef = D87BB55027105F010072EFD9 /* DefaultNetworkOperationPackage */; };
+		D87887BD27104A4300F0574C /* MarvelCharactersApiServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87887BC27104A4300F0574C /* MarvelCharactersApiServiceProvider.swift */; };
+		D87BB553271179070072EFD9 /* CharacterListViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87BB552271179070072EFD9 /* CharacterListViewState.swift */; };
+		D87BB55527121B1F0072EFD9 /* LabelDistributionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87BB55427121B1F0072EFD9 /* LabelDistributionData.swift */; };
+		D87BB55827121FB60072EFD9 /* ApplicationGeneralInfoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87BB55727121FB60072EFD9 /* ApplicationGeneralInfoManager.swift */; };
+		D87BB55A27121FF50072EFD9 /* ApplicationGeneralInfoProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87BB55927121FF50072EFD9 /* ApplicationGeneralInfoProtocol.swift */; };
+		D87BB55C271221570072EFD9 /* CharacterListDataFormatterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87BB55B271221570072EFD9 /* CharacterListDataFormatterProtocol.swift */; };
+		D87BB55E2712217D0072EFD9 /* CharacterListDataFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87BB55D2712217D0072EFD9 /* CharacterListDataFormatter.swift */; };
+		D87BB5612712352A0072EFD9 /* TutorialViewInfoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87BB5602712352A0072EFD9 /* TutorialViewInfoStore.swift */; };
+		D87BB5632712356B0072EFD9 /* UserDefaultsWrapperHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87BB5622712356B0072EFD9 /* UserDefaultsWrapperHelper.swift */; };
+		D87BB569271338200072EFD9 /* BaseComponents in Frameworks */ = {isa = PBXBuildFile; productRef = D87BB568271338200072EFD9 /* BaseComponents */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -153,7 +161,15 @@
 		D8788765270A027A00F0574C /* PageViewImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewImages.swift; sourceTree = "<group>"; };
 		D87887B5270CC98B00F0574C /* MarvelCharactersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelCharactersResponse.swift; sourceTree = "<group>"; };
 		D87887BA27104A0400F0574C /* BaseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
-		D87887BC27104A4300F0574C /* MarvelCharactesApiServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelCharactesApiServiceProvider.swift; sourceTree = "<group>"; };
+		D87887BC27104A4300F0574C /* MarvelCharactersApiServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelCharactersApiServiceProvider.swift; sourceTree = "<group>"; };
+		D87BB552271179070072EFD9 /* CharacterListViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListViewState.swift; sourceTree = "<group>"; };
+		D87BB55427121B1F0072EFD9 /* LabelDistributionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelDistributionData.swift; sourceTree = "<group>"; };
+		D87BB55727121FB60072EFD9 /* ApplicationGeneralInfoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationGeneralInfoManager.swift; sourceTree = "<group>"; };
+		D87BB55927121FF50072EFD9 /* ApplicationGeneralInfoProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationGeneralInfoProtocol.swift; sourceTree = "<group>"; };
+		D87BB55B271221570072EFD9 /* CharacterListDataFormatterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListDataFormatterProtocol.swift; sourceTree = "<group>"; };
+		D87BB55D2712217D0072EFD9 /* CharacterListDataFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListDataFormatter.swift; sourceTree = "<group>"; };
+		D87BB5602712352A0072EFD9 /* TutorialViewInfoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewInfoStore.swift; sourceTree = "<group>"; };
+		D87BB5622712356B0072EFD9 /* UserDefaultsWrapperHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsWrapperHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,7 +177,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D87BB55127105F010072EFD9 /* DefaultNetworkOperationPackage in Frameworks */,
+				D87BB569271338200072EFD9 /* BaseComponents in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,12 +221,12 @@
 		D856F41127083E300013A1A6 /* ios_Week_3 */ = {
 			isa = PBXGroup;
 			children = (
+				D856F454270845B00013A1A6 /* BaseComponents */,
+				D856F48827086F490013A1A6 /* Components */,
 				D87887B3270CC97500F0574C /* Models */,
 				D856F4A82708BFEE0013A1A6 /* Managers */,
-				D856F48827086F490013A1A6 /* Components */,
 				D856F465270858B40013A1A6 /* Utils */,
 				D856F464270857FC0013A1A6 /* Temp */,
-				D856F454270845B00013A1A6 /* BaseComponents */,
 				D856F445270842FA0013A1A6 /* SceneModules */,
 				D856F41227083E300013A1A6 /* AppDelegate.swift */,
 				D856F41427083E300013A1A6 /* SceneDelegate.swift */,
@@ -244,12 +260,12 @@
 		D856F445270842FA0013A1A6 /* SceneModules */ = {
 			isa = PBXGroup;
 			children = (
+				D856F48127086D4A0013A1A6 /* CharacterList */,
 				D878875B2709FEF600F0574C /* Tutorial */,
 				D87887502709FD1C00F0574C /* Jumping */,
 				D856F4462708431A0013A1A6 /* Main */,
 				D856F45F2708519C0013A1A6 /* MainTabBar */,
 				D87887452709F3C500F0574C /* GenericImageContainer */,
-				D856F48127086D4A0013A1A6 /* CharacterList */,
 				D856F469270859700013A1A6 /* Favorites */,
 			);
 			path = SceneModules;
@@ -298,6 +314,7 @@
 		D856F465270858B40013A1A6 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				D87BB55F2712350C0072EFD9 /* UserDefaultsHelpers */,
 				D8788762270A024700F0574C /* Extensions */,
 				D856F4AC2708C02B0013A1A6 /* FontManager */,
 				D856F466270858BA0013A1A6 /* AssetHelpers */,
@@ -328,8 +345,11 @@
 			isa = PBXGroup;
 			children = (
 				D856F48227086D6B0013A1A6 /* CharacterListViewController.swift */,
+				D87BB552271179070072EFD9 /* CharacterListViewState.swift */,
 				D856F48427086D760013A1A6 /* CharacterListViewBuilder.swift */,
 				D856F48627086D840013A1A6 /* CharacterListViewModel.swift */,
+				D87BB55D2712217D0072EFD9 /* CharacterListDataFormatter.swift */,
+				D87BB55B271221570072EFD9 /* CharacterListDataFormatterProtocol.swift */,
 			);
 			path = CharacterList;
 			sourceTree = "<group>";
@@ -389,6 +409,7 @@
 			children = (
 				D856F4A42708BFB00013A1A6 /* LabelPackComponent.swift */,
 				D856F4A62708BFBD0013A1A6 /* LabelPackComponentData.swift */,
+				D87BB55427121B1F0072EFD9 /* LabelDistributionData.swift */,
 			);
 			path = LabelPackComponent;
 			sourceTree = "<group>";
@@ -396,6 +417,7 @@
 		D856F4A82708BFEE0013A1A6 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				D87BB55627121F970072EFD9 /* UserDefaultsHelperManagers */,
 				D856F4A92708BFF40013A1A6 /* CacheManagers */,
 			);
 			path = Managers;
@@ -479,11 +501,29 @@
 		D87887B4270CC97800F0574C /* MarvelSample */ = {
 			isa = PBXGroup;
 			children = (
-				D87887BC27104A4300F0574C /* MarvelCharactesApiServiceProvider.swift */,
+				D87887BC27104A4300F0574C /* MarvelCharactersApiServiceProvider.swift */,
 				D87887B5270CC98B00F0574C /* MarvelCharactersResponse.swift */,
 				D87887BA27104A0400F0574C /* BaseRequest.swift */,
 			);
 			path = MarvelSample;
+			sourceTree = "<group>";
+		};
+		D87BB55627121F970072EFD9 /* UserDefaultsHelperManagers */ = {
+			isa = PBXGroup;
+			children = (
+				D87BB55727121FB60072EFD9 /* ApplicationGeneralInfoManager.swift */,
+				D87BB55927121FF50072EFD9 /* ApplicationGeneralInfoProtocol.swift */,
+			);
+			path = UserDefaultsHelperManagers;
+			sourceTree = "<group>";
+		};
+		D87BB55F2712350C0072EFD9 /* UserDefaultsHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				D87BB5602712352A0072EFD9 /* TutorialViewInfoStore.swift */,
+				D87BB5622712356B0072EFD9 /* UserDefaultsWrapperHelper.swift */,
+			);
+			path = UserDefaultsHelpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -503,7 +543,7 @@
 			);
 			name = ios_Week_3;
 			packageProductDependencies = (
-				D87BB55027105F010072EFD9 /* DefaultNetworkOperationPackage */,
+				D87BB568271338200072EFD9 /* BaseComponents */,
 			);
 			productName = ios_Week_3;
 			productReference = D856F40F27083E300013A1A6 /* ios_Week_3.app */;
@@ -577,7 +617,7 @@
 			);
 			mainGroup = D856F40627083E300013A1A6;
 			packageReferences = (
-				D87BB54F27105F010072EFD9 /* XCRemoteSwiftPackageReference "DefaultNetworkOperationPackage" */,
+				D87BB567271338200072EFD9 /* XCRemoteSwiftPackageReference "BaseComponents" */,
 			);
 			productRefGroup = D856F41027083E300013A1A6 /* Products */;
 			projectDirPath = "";
@@ -621,6 +661,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D87BB55E2712217D0072EFD9 /* CharacterListDataFormatter.swift in Sources */,
 				D856F46F270866B00013A1A6 /* FavoriteViewBuilder.swift in Sources */,
 				D87887422709F1AF00F0574C /* PageViewComponent.swift in Sources */,
 				D8788761270A022000F0574C /* TutorialViewBuilder.swift in Sources */,
@@ -633,9 +674,12 @@
 				D878875D2709FF1200F0574C /* TutorialViewController.swift in Sources */,
 				D856F448270843200013A1A6 /* MainViewModel.swift in Sources */,
 				D87887492709F41000F0574C /* PageViewDataProtocol.swift in Sources */,
+				D87BB553271179070072EFD9 /* CharacterListViewState.swift in Sources */,
 				D856F41727083E300013A1A6 /* ViewController.swift in Sources */,
 				D856F41327083E300013A1A6 /* AppDelegate.swift in Sources */,
+				D87BB55827121FB60072EFD9 /* ApplicationGeneralInfoManager.swift in Sources */,
 				D856F48B27086F5D0013A1A6 /* ItemListView.swift in Sources */,
+				D87BB5632712356B0072EFD9 /* UserDefaultsWrapperHelper.swift in Sources */,
 				D856F4992708A9430013A1A6 /* ItemTableViewCellData.swift in Sources */,
 				D87887442709F1D200F0574C /* PageViewComponentData.swift in Sources */,
 				D856F4A02708AB5A0013A1A6 /* CustomImageViewComponentData.swift in Sources */,
@@ -646,6 +690,8 @@
 				D856F44C2708434F0013A1A6 /* MainViewController.swift in Sources */,
 				D87887542709FE7000F0574C /* ViewController2.swift in Sources */,
 				D8788766270A027A00F0574C /* PageViewImages.swift in Sources */,
+				D87BB55A27121FF50072EFD9 /* ApplicationGeneralInfoProtocol.swift in Sources */,
+				D87BB55527121B1F0072EFD9 /* LabelDistributionData.swift in Sources */,
 				D856F4942708A8AF0013A1A6 /* ItemListProtocol.swift in Sources */,
 				D856F4A22708BF2E0013A1A6 /* CustomImageViewComponentContainer.swift in Sources */,
 				D856F46B270859A00013A1A6 /* FavoriteViewController.swift in Sources */,
@@ -658,7 +704,7 @@
 				D856F4AE2708C0360013A1A6 /* FontManager.swift in Sources */,
 				D856F4AB2708C00A0013A1A6 /* ImageCacheManager.swift in Sources */,
 				D878874F2709FC1100F0574C /* GenericImageContainer.swift in Sources */,
-				D87887BD27104A4300F0574C /* MarvelCharactesApiServiceProvider.swift in Sources */,
+				D87887BD27104A4300F0574C /* MarvelCharactersApiServiceProvider.swift in Sources */,
 				D878875A2709FEC400F0574C /* ViewContoller5.swift in Sources */,
 				D856F461270851AF0013A1A6 /* MainTabBarController.swift in Sources */,
 				D878875F2709FF3400F0574C /* TutorialViewModel.swift in Sources */,
@@ -667,12 +713,14 @@
 				D856F4902708A6850013A1A6 /* BaseTableViewCell.swift in Sources */,
 				D87887472709F3E200F0574C /* GenericImageContainerData.swift in Sources */,
 				D856F45A270845CA0013A1A6 /* BaseViewController.swift in Sources */,
+				D87BB55C271221570072EFD9 /* CharacterListDataFormatterProtocol.swift in Sources */,
 				D856F49C2708AAAB0013A1A6 /* CustomImageLoadingType.swift in Sources */,
 				D878874B2709FABC00F0574C /* GenericImageContainerViewModel.swift in Sources */,
 				D856F41527083E300013A1A6 /* SceneDelegate.swift in Sources */,
 				D856F4A52708BFB00013A1A6 /* LabelPackComponent.swift in Sources */,
 				D856F41D27083E300013A1A6 /* ios_Week_3.xcdatamodeld in Sources */,
 				D87887BB27104A0400F0574C /* BaseRequest.swift in Sources */,
+				D87BB5612712352A0072EFD9 /* TutorialViewInfoStore.swift in Sources */,
 				D856F48527086D760013A1A6 /* CharacterListViewBuilder.swift in Sources */,
 				D856F46E270866B00013A1A6 /* FavoriteViewModel.swift in Sources */,
 				D856F45E27084C040013A1A6 /* TestViewController.swift in Sources */,
@@ -1003,9 +1051,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		D87BB54F27105F010072EFD9 /* XCRemoteSwiftPackageReference "DefaultNetworkOperationPackage" */ = {
+		D87BB567271338200072EFD9 /* XCRemoteSwiftPackageReference "BaseComponents" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/darkbringer1/DefaultNetworkOperationPackage.git";
+			repositoryURL = "https://github.com/darkbringer1/BaseComponents.git";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 1.0.0;
@@ -1014,10 +1062,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D87BB55027105F010072EFD9 /* DefaultNetworkOperationPackage */ = {
+		D87BB568271338200072EFD9 /* BaseComponents */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = D87BB54F27105F010072EFD9 /* XCRemoteSwiftPackageReference "DefaultNetworkOperationPackage" */;
-			productName = DefaultNetworkOperationPackage;
+			package = D87BB567271338200072EFD9 /* XCRemoteSwiftPackageReference "BaseComponents" */;
+			productName = BaseComponents;
 		};
 /* End XCSwiftPackageProductDependency section */
 

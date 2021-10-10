@@ -35,7 +35,7 @@ class MainViewController: BaseViewController<MainViewModel> {
     
     @objc func testButtonAction(_ sender: UIButton) {
         print("Bastik")
-        let viewController = TestViewController()
+        let viewController = CharacterListViewController()
         viewController.title = "TEST"
         //        self.navigationController?.pushViewController(viewController, animated: true)
         //
