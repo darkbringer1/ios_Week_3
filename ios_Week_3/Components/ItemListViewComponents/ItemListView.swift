@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import BaseComponents
 
 class ItemListView: BaseView {
     
@@ -20,7 +21,7 @@ class ItemListView: BaseView {
         temp.translatesAutoresizingMaskIntoConstraints = false
         temp.delegate = self
         temp.dataSource = self
-        temp.register(ItemTableViewCell.self, forCellReuseIdentifier: ItemTableViewCell.identifier)
+//        temp.register(ItemTableViewCell.self, forCellReuseIdentifier: ItemTableViewCell.identifier)
         return temp
     }()
     
@@ -67,7 +68,7 @@ extension ItemListView: UITableViewDelegate, UITableViewDataSource {
         
         cell.setData(by: data)
         
-        return cell
+        return UITableViewCell()
     }
 }
 

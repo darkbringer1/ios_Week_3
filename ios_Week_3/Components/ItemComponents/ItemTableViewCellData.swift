@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+import BaseComponents
 
 class ItemTableViewCellData: GenericDataProtocol {
     private(set) var imageData: CustomImageViewComponentData

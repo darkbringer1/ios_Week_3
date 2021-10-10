@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import BaseComponents
 
 enum PageViewImages: String, GenericValueProtocol {
     

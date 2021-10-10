@@ -6,8 +6,8 @@
         "repositoryURL": "https://github.com/darkbringer1/BaseComponents.git",
         "state": {
           "branch": null,
-          "revision": "a41cac7b21b5017d6556d85ba4ad4e481060a7fd",
-          "version": "1.0.1"
+          "revision": "9142de30dfb4a88b2a6166880495601db8fb6109",
+          "version": "1.0.16"
         }
       },
       {
@@ -15,8 +15,8 @@
         "repositoryURL": "https://github.com/emircanaydin/DefaultNetworkOperationPackage",
         "state": {
           "branch": null,
-          "revision": "4fc2f852ad94c35feb660340846eacdaffd499f5",
-          "version": "1.2.0"
+          "revision": "a824c7a0db81db824f8a2db9e80781b5b4a85d10",
+          "version": "1.2.1"
         }
       }
     ]

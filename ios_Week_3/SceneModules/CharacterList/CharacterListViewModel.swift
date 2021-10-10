@@ -7,6 +7,7 @@
 
 import Foundation
 import DefaultNetworkOperationPackage
+import BaseComponents
 
 class CharacterListViewModel {
     

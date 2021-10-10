@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import BaseComponents
+
 extension Selector {
     static let testButtonTapped = #selector(MainViewController.testButtonAction)
 }
@@ -19,13 +21,13 @@ class MainViewController: BaseViewController<MainViewModel> {
         temp.setTitleColor(.black, for: .normal)
         return temp
     }()
-
+    
     override func prepareViewControllerConfigurations() {
         view.backgroundColor = .red
         view.addSubview(test)
-        
+
         NSLayoutConstraint.activate([
-        
+
             test.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             test.centerYAnchor.constraint(equalTo: view.centerYAnchor)
 
@@ -33,12 +35,13 @@ class MainViewController: BaseViewController<MainViewModel> {
     }
     
     
+    
     @objc func testButtonAction(_ sender: UIButton) {
         print("Bastik")
         let viewController = CharacterListViewController()
         viewController.title = "TEST"
-        //        self.navigationController?.pushViewController(viewController, animated: true)
-        //
+                self.navigationController?.pushViewController(viewController, animated: true)
+        
         let newNavigationController = UINavigationController(rootViewController: viewController)
         newNavigationController.navigationBar.backgroundColor = .red
         newNavigationController.navigationBar.tintColor = .green

@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import BaseComponents
 
 class ItemTableViewCell: BaseTableViewCell {
     
@@ -19,7 +19,7 @@ class ItemTableViewCell: BaseTableViewCell {
     }()
     
     private lazy var mainStackView: UIStackView = {
-        let temp = UIStackView(arrangedSubviews: [imageViewComponent, cellInfo])
+        let temp = UIStackView(arrangedSubviews: [imageViewComponent])
         temp.translatesAutoresizingMaskIntoConstraints = false
         temp.alignment = .center
         temp.distribution = .fill

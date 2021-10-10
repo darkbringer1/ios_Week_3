@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import BaseComponents
 
 class LabelDistributionData {
     private(set) var lineBreakMode: NSLineBreakMode = .byWordWrapping
